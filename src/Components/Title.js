@@ -7,7 +7,7 @@ class Title extends React.Component{
             
                 <div className="title-div">                
                     <h2 className="title">To-Do</h2>   
-                    <span className="subtitle">A digital memory to store your work.</span>
+                    <span className="subtitle">A digital memory to store your to-d0 list.</span>
                 </div>               
 
             

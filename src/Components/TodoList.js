@@ -5,7 +5,9 @@ class TodoList extends React.Component{
     render(){
         return(
             <div>
+                <div className="list-title">
                 <p>Things to do today</p>
+                </div>
                 {
                     this.props.list.map((todo,index)=>{
                         return (

@@ -14,12 +14,11 @@ class ToDo extends React.Component{
     }
     render(){ 
         return(
-            <div>
-                <button onClick={this.done}><span className="glyphicon glyphicon-ok"></span></button>
+            <div className="todo-div">
                     <span id={this.props.index}>
-                        {this.props.children}   
+                        {this.props.index+1}. {this.props.children}   
                     </span>
-                <button onClick={this.remove}>Remove</button>
+                <button onClick={this.remove} className="btn-remove"><span className="glyphicon glyphicon-remove"></span></button>
             </div>
         );
     }

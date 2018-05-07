@@ -3,7 +3,8 @@
   background-color:#30394A ;
 }
 .wrapper {
-  background: linear-gradient(to right, #30394A, #c0bcbce6);
+
+ background-color:#30394A;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,7 +15,7 @@
   height: 90vh;
   background: #fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
- width: 80%;
+ /*width: 80%;*/
   margin: 0 auto;
 }
 
@@ -23,7 +24,6 @@
   color: #fff;
   height: auto;
   padding: 2em;
-  
 
 }
 .title{
@@ -39,7 +39,7 @@
 
 .board{
  background-color:#fff;
- width:80em;
+ width:90em;
 }
 
 .form-container{
@@ -52,13 +52,14 @@
   color: white;
   font-size:20px;
   width:50%;
+  font-family: 'Muli', sans-serif;
 }
 
 input[type="text"] {
   background-color: transparent;
   border: 0;
   border-bottom: solid 1px #fff;
-  width: 80%;
+  width: 100%;
   padding-bottom: 4px;
   color: #fff !important;
   font-weight: lighter;
@@ -68,14 +69,48 @@ input[type="text"] {
   font-size: 20px;
 }
 .list-container{
-  background-color: #fff;
+  background: linear-gradient(to right,#474957 ,#7B7E8E  );
+  color:whitesmoke;
   height: 90vh;
-  padding-top: 100px;
-  padding-left: 50px;
+  padding:50px;
+  font-family: 'Muli', sans-serif;
   margin:0;
   width:50%;
   font-size:15px;
 }
-.glyphicon-ok{
-  color:blue;
+.todo-div{
+  padding:2px;
+  width: parent;
+  
+  border-radius: 5%;
+  margin:4px;
+}
+
+.to-do:hover{
+  background-color:#c0bcbce6;
+}
+
+.btn-remove{
+  float:right;
+  background: transparent;
+  border: 0;
+  color: red;
+  float: right;
+}
+
+.btn-add{
+  background-color:#B22A4C ;
+  color:white;
+  border-radius:0px;
+  border:0;
+  padding:5px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.list-title{
+  font-size:22px;
+  color:white;
+  align-content: center !important;
+  justify-content: center;
+  margin-bottom:20px;
 }
