@@ -15,7 +15,7 @@
   height: 90vh;
   background: #fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
- /*width: 80%;*/
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -37,10 +37,10 @@
   font-size: 20px;
 }
 
-.board{
+/*.board{
  background-color:#fff;
  width:90em;
-}
+}*/
 
 .form-container{
   height:90vh;
@@ -51,7 +51,7 @@
   background-color:#777;
   color: white;
   font-size:20px;
-  width:50%;
+  /*width:50%;*/
   font-family: 'Muli', sans-serif;
 }
 
@@ -69,15 +69,24 @@ input[type="text"] {
   font-size: 20px;
 }
 .list-container{
-  background: linear-gradient(to right,#474957 ,#7B7E8E  );
-  color:whitesmoke;
+  background: #fff;
+  color:#444;
   height: 90vh;
   padding:50px;
   font-family: 'Muli', sans-serif;
   margin:0;
-  width:50%;
+  /*width:50%;*/
   font-size:15px;
 }
+
+
+@-moz-document url-prefix() {
+  @media screen and (max-width: 720px) {
+    .main{
+        width: 100%;
+    }
+  }
+  }
 .todo-div{
   padding:2px;
   width: parent;
@@ -109,7 +118,7 @@ input[type="text"] {
 }
 .list-title{
   font-size:22px;
-  color:white;
+  color:#444;
   align-content: center !important;
   justify-content: center;
   margin-bottom:20px;

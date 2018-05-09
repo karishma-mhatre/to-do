@@ -41,11 +41,11 @@ class App extends React.Component {
         <div className="wrapper">
       <div className="main">
         <div className="container">
-          <div className="row board">
-            <div className="col-xs-5 form-container">
+          <div className="row">
+            <div className="col-xs-12 col-md-5 form-container">
               <Form addTodo={this.addTodo}/>
             </div>
-            <div className="col-xs-7 list-container">
+            <div className="col-xs-12 col-md-7 list-container">
               <TodoList list={JSON.parse(localStorage.getItem("To Do List"))} removeTodo={this.removeTodo}/>  
             </div>
           </div>        
