@@ -20,7 +20,7 @@
 }
 
 .title-div{
-  background-color: #30394A;
+  background-color: #FF6F51;
   color: #fff;
   height: auto;
   padding: 2em;
@@ -32,7 +32,7 @@
 
 }
 .subtitle{
-  color:#777;
+  color:#fff;
   font-family: 'Acme', sans-serif;
   font-size: 20px;
 }
@@ -108,7 +108,7 @@ input[type="text"] {
 }
 
 .btn-add{
-  background-color:#B22A4C ;
+  background-color:#FF6F51 ;
   color:white;
   border-radius:0px;
   border:0;
